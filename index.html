@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="categories">
+        <h2>categories list</h2>
+        <ul>
+            <li>Beef</li>
+            <li>Chicken</li>
+            <li>Dessert</li>
+            <li>Lamp</li>
+            <li>Pasta</li>
+            <li>pork</li>
+            <li>seafood</li>
+            <li>side</li>
+            <li>starter</li>
+            <li>vegan</li>
+            <li>vegetarian</li>
+            <li>breakfast</li>
+            <li>goat</li>
+            <li>Miscellaneous</li>
+        </ul>
+    </div>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="input-meal-name" type="text" class="form-control"
+                    placeholder="Enter a meal category here...">
+                <div class="input-group-append">
+                    <button id="find-meal" type="button" class="btn btn-success">Search</button>
+                </div>
+            </div>
+        </form>
+        <div id="meal-detail"></div>
+        <div id="meals"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
