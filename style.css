@@ -30,7 +30,7 @@ body{
     font-size: 25px;
 }
 
-ul li{
+.categories ul li{
     list-style: none;
     border: 2px solid gray;
     display: block;
@@ -44,3 +44,5 @@ ul li{
 .categories{
     margin-bottom: 40px;
 }
+ul li{
+    list-style: none;
